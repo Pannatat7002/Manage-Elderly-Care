@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+
+    src: url('assets/scss/fonts/DB_Heavent_Cond_v3.2.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --font-family: 'db_heavent_regular';
+    // --font-size: 16px;
+    // /* เพิ่มตัวแปรอื่น ๆ ตามต้องการ */
+}
+
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    // background: #FFF;
+}
